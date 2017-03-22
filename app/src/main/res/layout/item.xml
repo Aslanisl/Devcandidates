@@ -4,7 +4,7 @@
     android:layout_height="wrap_content"
     android:orientation="vertical">
 
-    <ru.mail.aslanisl.devcandidates.Icon
+    <ru.mail.aslanisl.devcandidates.SquaredImageView
         android:id="@+id/imageView"
         android:layout_width="match_parent"
         android:layout_height="200dp"

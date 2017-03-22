@@ -3,18 +3,18 @@ package ru.mail.aslanisl.devcandidates;
 import android.content.Context;
 import android.util.AttributeSet;
 
-public class Icon extends android.support.v7.widget.AppCompatImageView{
+public class SquaredImageView extends android.support.v7.widget.AppCompatImageView{
 
-    public Icon(final Context context) {
+    public SquaredImageView(final Context context) {
         super(context);
     }
 
-    public Icon(final Context context, final AttributeSet attrs) {
+    public SquaredImageView(final Context context, final AttributeSet attrs) {
         super(context, attrs);
     }
 
-    public Icon(final Context context, final AttributeSet attrs,
-                final int defStyle) {
+    public SquaredImageView(final Context context, final AttributeSet attrs,
+                            final int defStyle) {
         super(context, attrs, defStyle);
     }
 

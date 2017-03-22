@@ -15,10 +15,10 @@ import retrofit2.Response;
 
 public class MainActivity extends AppCompatActivity {
 
-    ArrayList<String> mList;
-    Call<ArrayList<String>> mCall;
-    RecyclerView mRecyclerView;
-    Adapter mAdapter;
+    private ArrayList<String> mList;
+    private Call<ArrayList<String>> mCall;
+    private RecyclerView mRecyclerView;
+    private Adapter mAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onDestroy() {
         super.onDestroy();
 
-        if (mCall.isExecuted() ) {
+        if (mCall != null) {
             mCall.cancel();
         }
     }
